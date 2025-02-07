@@ -1,0 +1,36 @@
+body {
+  background-color: #221f1f !important;
+}
+
+#logo {
+  max-width: 100px;
+  max-height: 50px;
+}
+
+.h2 {
+  color: #ffffff !important;
+}
+
+.icons {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.txt {
+  font-size: 0.8rem !important;
+  font-weight: bold;
+}
+
+.footerLink {
+  text-decoration: none !important;
+  font-size: 0.8rem;
+}
+
+.posterImg {
+  max-height: 150px;
+}
+
+.filmCont {
+  max-width: 150px;
+  background-color: #3a3636;
+}
