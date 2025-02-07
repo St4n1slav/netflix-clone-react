@@ -43,3 +43,7 @@ body {
 .footer-icon {
   color: white;
 }
+
+.lista {
+  max-width: 99vw;
+}

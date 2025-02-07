@@ -38,7 +38,7 @@ class MyFilmList extends Component {
     return (
       <>
         <h5 className="filmTitle">{this.props.filmName}</h5>
-        <Row className="my-3" sm={2} md={4} xl={6}>
+        <Row className="my-3 lista" sm={2} md={4} xl={6}>
           {this.state.films.map((src) => (
             <MyFilm key={src.imdbID} filmId={src.imdbID} />
           ))}
