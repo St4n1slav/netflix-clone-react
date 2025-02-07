@@ -13,7 +13,7 @@ body {
 
 .icons {
   font-size: 1.2rem;
-  color: white;
+  color: white !important;
 }
 
 .txt {
@@ -32,5 +32,8 @@ body {
 
 .filmCont {
   max-width: 150px;
-  background-color: #3a3636;
+}
+
+.filmTitle {
+  color: #ffffff !important;
 }
