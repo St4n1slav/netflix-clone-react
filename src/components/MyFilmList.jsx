@@ -16,7 +16,7 @@ class MyFilmList extends Component {
 
       const response = await fetch(`http://www.omdbapi.com/?s=${this.props.filmName}&apikey=72b6ee4a`);
       const json = await response.json();
-      this.setState({ films: json.Search.slice(0, 5) });
+      this.setState({ films: json.Search.slice(0, 6) }); // non sono riuscito a fare il carosello, e questo era l'unico modo che ho trovato per avere un certo numero di film in riga
     } catch (error) {
       console.error("Errore nel reperimento dei dati: ", error);
       this.setState({ hasError: true, errorMessage: error.message });

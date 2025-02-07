@@ -45,5 +45,5 @@ body {
 }
 
 .lista {
-  max-width: 99vw;
+  max-width: 99vw; /* ho cercato di risolvere le misure fisse ma qualcosa continuava a dare fastidio, solo cosi sono riuscito a levare la barra di scorrimento orizontale*/
 }
